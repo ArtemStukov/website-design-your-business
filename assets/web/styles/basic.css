@@ -1,7 +1,17 @@
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("./fonts/MyriadProRegular.eot");
+    src: url("./fonts/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("./fonts/MyriadProRegular.woff") format("woff"),
+    url("./fonts/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
     body {
         margin: 0;
         padding: 0;
-        font-family: myriad-pro, sans-serif;
+        font-family: MyriadProRegular, serif;
         font-style: normal;
         font-weight: 400;
     }
@@ -29,6 +39,7 @@
 
     .nav-link{
         display: inline-block;
+        text-decoration: none;
         vertical-align: center;
         background: #898d8e;
         padding: 15px 10px;
