@@ -1,0 +1,41 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: myriad-pro, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .header {
+        margin: 55px 57px;
+    }
+
+    .header h1 {
+        color: #d7794a;
+        font-size: 32px;
+        vertical-align: center;
+        text-transform: uppercase;
+    }
+
+    .top-menu {
+        padding-left: 55px;
+        background-color: #898d8e;
+    }
+
+    .nav{
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+
+    .nav-link{
+        display: inline-block;
+        vertical-align: center;
+        background: #898d8e;
+        padding: 15px 10px;
+        color: #e8e6e6;
+        transition: color 0.1s linear;
+    }
+    .nav-link:hover {
+        background:#7d9097;
+        color: #302f2f;
+    }
